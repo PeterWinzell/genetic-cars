@@ -20,4 +20,4 @@ The fitness function which is used by genetic algorithms to select the best indi
 
 The code was written using Apache Netbeans 9.0 and JavaFX was used for chromosome visualization.
 
-![alt text]https://github.com/PeterWinzell/genetic-cars/blob/master/src/images/genhighway.png "Highway 1")
+![alt text](https://github.com/PeterWinzell/genetic-cars/blob/master/src/images/genhighway.png "Highway 1")
