@@ -19,4 +19,5 @@ This application uses the [jenetics](http://jenetics.io) library to illustrate h
 The fitness function which is used by genetic algorithms to select the best individuals gives points for genomes(cars) reaching the goal and punishes for driving outside the lane and for colliding with other vehicles. The actual fitness value is calculated running the highway chromosome t milliseconds.
 
 The code was written using Apache Netbeans 9.0 and JavaFX was used for chromosome visualization.
-                
+
+![alt text](https://github.com/PeterWinzell/genetic-cars/tree/master/src/images "Highway 1")
