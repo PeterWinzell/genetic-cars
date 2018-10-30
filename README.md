@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/PeterWinzell/genetic-cars/blob/master/src/images/genhighway.png "Highway 1")
 
-This application uses the [jenetics](http://jenetics.io) library to illustrate how we can use genetic algorithms as a self-learning tool. In this case we have a highway of 20 cars, where 10 cars are traveling west to east and 10 cars are traveling east to west. The genome in this case is a double double which respresent the velocity x and y direction. The genomes form a chromosome which we apply multiple-point crossover and mutation on.
+This application uses the [jenetics](http://jenetics.io) framework to illustrate how we can use genetic algorithms as a self-learning tool. In this case we have a highway of 20 cars, where 10 cars are traveling west to east and 10 cars are traveling east to west. The genome in this case is a double double which respresent the velocity x and y direction. The genomes form a chromosome which we apply multiple-point crossover and mutation on.
 
 ```java
 ...
