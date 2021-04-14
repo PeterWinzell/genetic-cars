@@ -39,12 +39,12 @@ public class GeneticEngineHandler implements Runnable{
     private static final double carheight = 16;
     private static final double roadheight = carheight * 8;
     
-    // chromosome length and genetype constraint(s)
+    // chromosome length and genotype constraint(s)
     private static final double velocityconstraint = 10;
     private static final int  chromosomelength = 40;
     
     // genetic algorithm parameters
-    private static final double mutationfreq = 0.2;
+    private static final double mutationfreq = 0.1;
     private static final double crossoverporob = 0.5; 
     
     //notification frequency
@@ -109,7 +109,7 @@ public class GeneticEngineHandler implements Runnable{
             for (int i = 0; i < 10; i++) {
 
                 Sprite s = new Sprite();
-                s.setImage("file:src/redcar.png");
+                s.setImage("file:src/bluecar.png");
 
                 s.setPositionX(currentX);
                 s.setPositionY(currentY);
@@ -128,7 +128,7 @@ public class GeneticEngineHandler implements Runnable{
             for (int i = 10; i < 20; i++) {
 
                 Sprite s = new Sprite();
-                s.setImage("file:src/bluecar.png");
+                s.setImage("file:src/redcar.png");
 
                 s.setPositionX(currentX);
                 s.setPositionY(currentY);
@@ -161,9 +161,9 @@ public class GeneticEngineHandler implements Runnable{
         for (int i = 0; i < 10; i++) {
 
             Sprite s = new Sprite();
-            s.setImage("file:src/redcar.png");
+            s.setImage("file:src/bluecar.png");
 
-            s.setPositionX(currentX);
+            s.setPositionX(currentX); 
             s.setPositionY(currentY);
             
             DoubleGene veloX = chromosome.getGene(j);
@@ -192,7 +192,7 @@ public class GeneticEngineHandler implements Runnable{
         for (int i = 10; i < 20; i++) {
 
             Sprite s = new Sprite();
-            s.setImage("file:src/bluecar.png");
+            s.setImage("file:src/redcar.png");
 
             s.setPositionX(currentX);
             s.setPositionY(currentY);
